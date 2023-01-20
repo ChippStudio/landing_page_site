@@ -39,12 +39,11 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 576px auto auto;
+	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"i i i i i i i i i i i i"
-		"o p p p p p p p p p p p"
+		"i i i i i p p p p p p p"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -250,7 +249,7 @@ nav > ul li a:active {
 	flex-wrap: wrap;
 	padding-top: 140px;
 	align-content: flex-start;
-	margin-left: 100px;
+	// margin-left: 100px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -258,7 +257,7 @@ nav > ul li a:active {
 	.appInfo {
 		padding-top: 50px;
 		justify-content: center;
-		margin-left: 0px;
+		// margin-left: 0px;
 	}
 
 } 
@@ -388,7 +387,7 @@ nav > ul li a:active {
 	// background-position: center 0;
 	// background-size: 400px auto;
 	// background-repeat: no-repeat;
-	// margin-top: 68px;
+	margin-top: 68px;
 	// justify-content: center;
 	// margin-left: auto;
   	// margin-right: auto;
